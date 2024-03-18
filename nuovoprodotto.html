@@ -87,7 +87,7 @@
 
                     <!-- Sponsorizzazione Anchor -->
                     <li class="nav-item">
-                        <a href="#" class="nav-link  text-white">
+                        <a href="sponsorizzazione.html" class="nav-link  text-white">
                             <svg class="bi pe-none me-2" width="16" height="16">
                                 <use xlink:href="#home"></use>
                             </svg>
@@ -249,38 +249,50 @@
                                 </div>
                                 <!-- /Select -->
 
-                                <!-- /Text Area -->
-                                <div class="mb-3">
-                                    <textarea area-label="textarea1" class="form-control" rows="4"
-                                        placeholder="Inserisci la descrizione del prodotto, massimo 1000 caratteri"></textarea>
+
+                                <div class="container-fluid">
+                                    <div class="mb-3">
+                                        <!-- Text Area -->
+                                        <textarea area-label="textarea1" class="form-control" rows="4"
+                                            placeholder="Inserisci la descrizione del prodotto, massimo 1000 caratteri">
+                                        </textarea>
+                                        <!-- /Text Area -->
+                                    </div>
+
+                                    <!-- File input -->
+                                    <div class="input-group mb-3">
+                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                        <label class="input-group-text" for="inputGroupFile02">Immagine</label>
+                                    </div>
+                                    <!-- /File input -->
+                                    <!-- Page -->
+                                    <nav aria-label="Page navigation example ">
+                                        <ul class="pagination">
+                                            <li class="page-item"><a class="page-link text-secondary"
+                                                    href="#">Disponibile</a></li>
+                                            <li class="page-item"><a class="page-link text-secondary"
+                                                    href="#">Esaurito</a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link text-secondary" href="#">Fuori
+                                                    Produzione</a></li>
+                                            <li class="page-item"><a class="page-link text-secondary" href="#">In
+                                                    arrivo</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <!-- /Page -->
+
+                                    <!-- btn -->
+                                    <button class="btn d-none d-lg-block btn-primary" type="submit">Salva</button>
+                                    <!-- /btn -->
+
+
                                 </div>
                                 <!-- Text Area -->
 
-                                <!-- File input -->
-                                <div class="input-group mb-3">
-                                    <input type="file" class="form-control" id="inputGroupFile02">
-                                    <label class="input-group-text" for="inputGroupFile02">Immagine</label>
-                                </div>
-                                <!-- /File input -->
 
-                                <!-- Page -->
-                                <nav aria-label="Page navigation example ">
-                                    <ul class="pagination">
-                                        <li class="page-item"><a class="page-link text-secondary"
-                                                href="#">Disponibile</a></li>
-                                        <li class="page-item"><a class="page-link text-secondary" href="#">Esaurito</a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link text-secondary" href="#">Fuori
-                                                Produzione</a></li>
-                                        <li class="page-item"><a class="page-link text-secondary" href="#">In arrivo</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <!-- /Page -->
 
-                                <!-- btn -->
-                                <button class="btn d-none d-lg-block btn-primary" type="submit">Salva</button>
-                                <!-- /btn -->
+
                             </form>
 
 
